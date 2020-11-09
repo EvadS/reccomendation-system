@@ -1,0 +1,5 @@
+
+rootProject.name = 'reccomendation-system'
+
+include 'library'
+include 'application'

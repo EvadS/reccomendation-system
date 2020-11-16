@@ -1,23 +1,22 @@
+# Base skeleton for gradle multli - layer project 
 
-*nix
+For build 
+in parent project 
+./gradle clean build 
+
+
+
+For run 
+
+
+
+cd /demo-server 
 ```bash
-$ ./gradlew build && ./gradlew :application:bootRun
+./gradlew bootRun 
 ```
 
-windows
-```bash
-$ gradle.bat build && gradle.bat :application:bootRun
-```
-
-```bash
-$ ./mvnw install && ./mvnw spring-boot:run -pl application
-```
-
-windows 
-```bash
-mvnw.cmd install && mvnw.cmd spring-boot:run -pl application
-```
-
-```http 
-http://localhost:8080/
-```
+* common : This module contains common code and the Hibernate setup that is
+* inventory : This is the inventory service implementation
+* availability : This is the availability service implementation
+* booking : This is the booking service implementation
+* billing : This is the billing service implementation

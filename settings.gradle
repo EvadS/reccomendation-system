@@ -1,5 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
 
-rootProject.name = 'reccomendation-system'
 
-include 'library'
-include 'application'
+rootProject.name = 'recomendation-system'
+
+include 'inventory-service'
+include 'common'
+include 'availability-service'
+include 'booking-service'
+include 'billing-service'
+
+include 'all-service'
+
+
